@@ -5,5 +5,9 @@ module.exports = {
   },
   mongodb : {
     dbURI : 'mongodb://jobdiaries:test123@ds139992.mlab.com:39992/employees'
+  },
+  JWT : {
+    iss : "Ashish",
+    secret : "abraKaDabraOogaBooga"
   }
 }
