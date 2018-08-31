@@ -1,13 +1,13 @@
 module.exports = {
   dialogflow: {
-    privateKey: '-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC5W365W9Jfu3qE\nV9j3PG32iW3wZpf39AdgSMZvKiMKNxNZq6WdSxbU1osY62DY9KVYa4GzW10SWgVa\nfgQJMz9jki2G52mkeJx5JhmM+Dzgqn/u9TRN7I9HAhFQTQtyZldN6NmMIVRf3cFR\nugfVNM6jaE1Vjg+xJ7yoclAGfO2H9XySZQo319pgWqi7log7xhpLXPzbDyJJh8ox\nMFaZG0hUBo7z+iQmPzSv0qPfJovUUyocBtxga2h+kYBkdSgOiRXnQp24BNMUDd6S\nG+P9YD4fCgsgliN1RDCKLcg9vhSbufUh3qrF7YLQH9m8CYVq9MKALBzgmnSXCI1e\nimTh32sVAgMBAAECggEAAbhl63H8+Jr8ltxa3OaQbbSWUuAc4nX/GIdsYg090IM0\n2IT1j0lqX5TTKyrKFhFlNHYg+MltCnXP7WhUgMJbQQETD5i3vAlLiHtQSuTl6b7j\nW5QmhV+f78yG3Rwt8kSdZFF4LWsExbQA7pF/r5yjG1SlPRlJr377KwQOlpTTvoqG\nYvLyTQ2wdfHRtLyz4sHIJRNxbS5hWj6zACfl7amqS8qRZf15Y3+LVFTyiNPHnTf4\njmgc5KhjZKkDWk0oTduVM2gPPl2fFv52tOrie7l2jAzPe1Ch4mZE+l50Q7vl8hbS\nOXyMaSUISAEcLK3uSVNThJkoGaVwl1QbPEyU+f+A4QKBgQD+m+Ci0Irt9KskFuRq\nkIarrpHso4nkg/wfITcrIlor9G+gWTCpSMNs1wr5yBxkSgGQtSP7LO/6CN/rqDcR\nbzQuHXK8z9drL0DVz4aiDYIopdaIjcCLYPBBsvMOuKGUYQXXeXdJ1ejUXFdbGqNz\n5+OIzBd4l8E82A9VoHk0gMT0YQKBgQC6XsFThFhi8nWwZCESN4pj1a4geUJOqMx8\nTPAwzfE2slmCTxUULqLjyD/Gzf1ykBHuQrmB3PppErigEmnQv/9WRhKGWBU5VoVm\ndK6NVW1iYjfPiq81ymYVFSCS7ihQrNwthZD72F4mSESULxXnvK4slS1+zdRiCWLU\n4CFG3NmzNQKBgFr8YV5NoBhBIxeWhrH+S+H2VHd4ScK719FYEVr8v7SNeYaX2Ofl\n9NBkWKvCc0Lzn3OTB/SurmNv4HVae7NjRgZkx6fprlXDYSwHKVmn8ieMfAn4fiJQ\n1grkZC+Sk0tvEKNb6OEd7EJXbXBFKLw21f0A0jJqKMgRfglfe3Djw36BAoGASP2B\nU7c6co4o34tnlF3iOlVem+NBv9LGO0xaqZKOjPBus+VLCRt2uiUcLT1RrMOV8i15\nv82O2QX2/uIXRSVc2CobaTgoH8ut9UFvd3TkoSp8VzEmi7eYIVuj5UeWzHnWxZFR\nBgFoZi/Zg/uo5Zh00oseRVJRgo/QgDTDc6BdNp0CgYEA+7J1gkat3yL2uL2/zsdY\nhWlYWyZiN4xoBbKh7yf9e4ZV0vINtmzC9Xzc9cU4FbM+K25cWuST8ezdY0p0ueif\nArjIPL3fS7mG1ujdB0YcOsIyoOlwxd16q+k2s0UpoSlz22akpkYCfeIqk9TjpP1W\n3hsQekBGArybWk2foYAR0gk=\n-----END PRIVATE KEY-----\n',
-    clientEmail: 'botbot@dexter-47332.iam.gserviceaccount.com'
+    privateKey: '',
+    clientEmail: ''
   },
   mongodb : {
-    dbURI : 'mongodb://jobdiaries:test123@ds139992.mlab.com:39992/employees'
+    dbURI : ''
   },
   JWT : {
-    iss : "Ashish",
-    secret : "abraKaDabraOogaBooga"
+    iss : "",
+    secret : ""
   }
 }
