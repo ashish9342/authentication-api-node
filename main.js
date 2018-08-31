@@ -1,7 +1,4 @@
-// const dialogflow = require('dialogflow');
-// const LANGUAGE_CODE = 'en-US'
-// //
-//
+
 const projectId = 'dexter-47332'; //https://dialogflow.com/docs/agents#settings
 const sessionId = '981dbc33-7c54-5419-2cce-edf10efd2170';
 const query = 'adhaar number please';
