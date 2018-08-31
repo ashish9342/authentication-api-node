@@ -2,10 +2,10 @@ const JWT = require('jsonwebtoken');
 const Emp = require('../models/emp-model');
 const keys = require('../config/keys');
 
-signToken = user => {
+signToken = emp => {
   return JWT.sign({
     iss: keys.JWT.iss,
-    sub: user.id,
+    sub: emp.id,
     iat: new Date().getTime(),
     exp: new Date().setDate(new Date().getDate() + 1)
   }, keys.JWT.secret);
@@ -63,8 +63,8 @@ module.exports = {
         //generate the token
         //req.user get the use credentials
 
-        const token = signToken(req);
-        console.log(req);
+        const token = signToken(req.user);
+        //console.log(req);
         res.status(200).json({token});
 
 
