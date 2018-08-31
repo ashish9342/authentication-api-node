@@ -9,7 +9,7 @@ router.route('/signup')
   .post(validateBody(schemas.authSchema), UserController.signup);
 
 router.route('/signin')
-  .post(UserController.signin);
+  .post(validateBody(schemas.authSchema), passport.authenticate('local', {session :false}), UserController.signin);
 
 router.route('/secret')
   .get(passport.authenticate('jwt', {session :false}), UserController.secret);

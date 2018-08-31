@@ -61,9 +61,17 @@ module.exports = {
     },
     signin: async (req, res, next) => {
         //generate the token
+        //req.user get the use credentials
 
-      },
-      secret: async (req, res, next) => {
-        console.log("pointer was here");
-      }
+        const token = signToken(req);
+        console.log(req);
+        res.status(200).json({token});
+
+
+    },
+    secret: async (req, res, next) => {
+      console.log("pointer was here");
+      res.status(200).json({secret : "resources"});
+
+    }
 }
