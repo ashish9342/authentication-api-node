@@ -1,13 +1,13 @@
 module.exports = {
   dialogflow: {
     privateKey: '',
-    clientEmail: ''
+    clientEmail: '',
   },
-  mongodb : {
-    dbURI : ''
+  mongodb: {
+    dbURI: '',
   },
-  JWT : {
-    iss : "",
-    secret : ""
-  }
-}
+  JWT: {
+    iss: '',
+    secret: '',
+  },
+};
